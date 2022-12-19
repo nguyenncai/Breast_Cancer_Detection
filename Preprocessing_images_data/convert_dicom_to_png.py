@@ -28,6 +28,7 @@ def convert_dcm_png(pathOfImage, imageName):
 
 #main 
 if __name__ == '__main__':
+    # Nghia: có thể dùng argparse để đưa argument vào main khi chạy python file từ command line
     pathImage = input('Enter the path images: ')
     pathImages = pathImage.rstrip()
     print('pathImages: ====!!!!!', pathImages)
